@@ -1,9 +1,9 @@
 version: '3.3'
 services:
-    notebook:
-        container_name: robinhood
+    quantp1:
+        container_name: quant1
         ports:
             - '8888:8888'
         volumes:
             - '/Users/somd7w/Desktop/Trading/Projects/robinhood-portfolio:/work'
-        image: notebook
+        image: chezhipower/quant_projects

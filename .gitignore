@@ -2,6 +2,9 @@
 __pycache__/
 *.py[cod]
 
+# This is specific to my machine
+docker-compose.yml
+
 # Protected folders
 data/
 eda/
