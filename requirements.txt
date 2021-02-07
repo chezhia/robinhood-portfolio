@@ -7,6 +7,8 @@ seaborn>=0.9.0
 matplotlib
 flask
 pytz<2020.0,>=2019.3
+robin-stocks
+
 git+https://github.com/robinhood-unofficial/pyrh.git#egg=pyrh
 git+https://github.com/quantopian/empyrical
 git+https://github.com/czielinski/portfolioopt
