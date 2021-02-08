@@ -8,6 +8,7 @@ docker-compose.yml
 # Protected folders
 data/
 eda/
+auth/
 backend/auth.py
 
 # C extensions

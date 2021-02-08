@@ -1,9 +1,9 @@
-version: '3.3'
+version: '3'
 services:
-    quantp1:
-        container_name: quant1
+    quantp2:
+        container_name: quant2
         ports:
-            - '8888:8888'
+            - '8887:8888'
         volumes:
-            - '/Users/somd7w/Desktop/Trading/Projects/robinhood-portfolio:/work'
-        image: chezhipower/quant_projects
+            - '/Users/somd7w/Desktop/Trading/Projects/robinhood-portfolio:/home/jovyan/work'
+        image: chezhipower/quant_projects:robin 
